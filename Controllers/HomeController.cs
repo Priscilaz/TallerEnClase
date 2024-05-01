@@ -15,7 +15,7 @@ namespace PriscilaZuniga_Web_CodeFirst.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("PZ_Index");
         }
 
         public IActionResult Privacy()
