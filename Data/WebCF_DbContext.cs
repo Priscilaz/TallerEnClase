@@ -13,4 +13,5 @@ using PriscilaZuniga_Web_CodeFirst.Models;
         }
 
         public DbSet<PriscilaZuniga_Web_CodeFirst.Models.Burger> Burger { get; set; } = default!;
-    }
+        public DbSet<PriscilaZuniga_Web_CodeFirst.Models.Promo> Promo { get; set; } = default!;
+}

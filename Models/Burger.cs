@@ -12,5 +12,9 @@ namespace PriscilaZuniga_Web_CodeFirst.Models
         public bool WithCheese { get; set;}
         [Range(0.01, 9999.99, ErrorMessage ="Valor fuera de rango")]
         public decimal Precio { get; set; }
+
+        
+        //Se relaciona con una lista de objetos de 
+        public List<Promo>? Promo { get; set; }
     }
 }
